@@ -1,0 +1,80 @@
+.body_wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.title {
+     flex: 1 100%;
+   }
+
+.restaurant_1, .restaurant_2, .restaurant_3, .restaurant_4, .restaurant_5, .restaurant_6, .restaurant_7, .restaurant_8, .restaurant_9, .restaurant_10 {
+  flex: 1 100%;
+  padding: 4%;
+  margin: 1%;
+}
+
+.restaurant_1 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_2 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_3 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_4 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_5 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_6 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_7 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_8 {
+  background: gold url("") center no-repeat;
+}
+
+.restaurant_9 {
+  background: url("/Users/learn/Desktop/AT_Top_Restaurants/images/img_9.jpeg") center no-repeat;
+  background-size: cover;
+}
+
+.restaurant_10 {
+  background: gold url("") center no-repeat;
+}
+
+.text-bg {
+  background-color: #FFF;
+  width: 100%;
+  /*padding: 4%;*/
+  margin: 200px auto 0;
+}
+
+h2, p {
+  width: 80%;
+  margin: auto;
+}
+
+@media all and (min-width: 600px) {
+  .body_wrap {
+    padding: 0 5%;
+  }
+  .restaurant_2, .restaurant_3, .restaurant_7, .restaurant_8, .restaurant_9, .restaurant_10 {
+    flex: 1 40%;
+  }
+  .restaurant_4, .restaurant_5, .restaurant_6 {
+    flex: 1 23%;
+  }
+}
